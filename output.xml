@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190507 10:55:02.645" generator="Robot 3.1.1 (Python 2.7.11 on win32)">
+<suite source="D:\GitRepositories\GraphQL\src\test.robot" id="s1" name="Test">
+<test id="s1-t1" name="Should be able to get my task results">
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>sess</arg>
+<arg>http://localhost:4000</arg>
+</arguments>
+<msg timestamp="20190507 10:55:02.727" level="INFO">Creating Session using : alias=sess, url=http://localhost:4000, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" endtime="20190507 10:55:02.727" starttime="20190507 10:55:02.727"></status>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<arguments>
+<arg>Content-Type=Application/JSON</arg>
+</arguments>
+<assign>
+<var>${headers}</var>
+</assign>
+<msg timestamp="20190507 10:55:02.727" level="INFO">${headers} = {u'Content-Type': u'Application/JSON'}</msg>
+<status status="PASS" endtime="20190507 10:55:02.727" starttime="20190507 10:55:02.727"></status>
+</kw>
+<kw name="Post Request" library="RequestsLibrary">
+<doc>Send a POST request on the session object found using the
+given `alias`</doc>
+<arguments>
+<arg>sess</arg>
+<arg>uri=/</arg>
+<arg>data=${MYTASK.QUERY}</arg>
+<arg>headers=${headers}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190507 10:55:02.762" level="INFO">Post Request using : alias=sess, uri=/, data=&lt;Application/JSON&gt;, headers={u'Content-Type': u'Application/JSON'}, files=None, allow_redirects=True </msg>
+<msg timestamp="20190507 10:55:02.762" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" endtime="20190507 10:55:02.762" starttime="20190507 10:55:02.727"></status>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<arguments>
+<arg>${resp.status_code}</arg>
+<arg>200</arg>
+</arguments>
+<msg timestamp="20190507 10:55:02.763" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20190507 10:55:02.763" starttime="20190507 10:55:02.762"></status>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<arguments>
+<arg>${resp.content}</arg>
+<arg>${MYTASK.OUTPUT}</arg>
+</arguments>
+<status status="PASS" endtime="20190507 10:55:02.763" starttime="20190507 10:55:02.763"></status>
+</kw>
+<status status="PASS" endtime="20190507 10:55:02.764" critical="yes" starttime="20190507 10:55:02.727"></status>
+</test>
+<status status="PASS" endtime="20190507 10:55:02.764" starttime="20190507 10:55:02.645"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test" pass="1">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

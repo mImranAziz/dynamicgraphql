@@ -1,0 +1,38 @@
+{
+    "@odata.context": "http://torwdiaziz01/devlogin/iadevform/api/v2/object/$metadata#Eee_graphqlObject",
+    "value": [
+        {
+            "@odata.type": "#Intelex.Eee_graphqlObject",
+            "@odata.id": "http://torwdiaziz01/devlogin/iadevform/api/v2/object/Eee_graphqlObject(e91f4513-fe17-491e-951a-dfbe5732e5a9)",
+            "@odata.editLink": "http://torwdiaziz01/devlogin/iadevform/api/v2/object/Eee_graphqlObject(e91f4513-fe17-491e-951a-dfbe5732e5a9)",
+            "Id": "e91f4513-fe17-491e-951a-dfbe5732e5a9",
+            "DateCreated": "2019-05-15T19:30:10.773+04:00",
+            "DateModified": "2019-05-15T19:30:10.773+04:00",
+            "Deleted": false,
+            "rating": 9,
+            "show": "Breaking Bad"
+        },
+        {
+            "@odata.type": "#Intelex.Eee_graphqlObject",
+            "@odata.id": "http://torwdiaziz01/devlogin/iadevform/api/v2/object/Eee_graphqlObject(2342ece5-cbd4-480e-af7e-4a79ecb70a20)",
+            "@odata.editLink": "http://torwdiaziz01/devlogin/iadevform/api/v2/object/Eee_graphqlObject(2342ece5-cbd4-480e-af7e-4a79ecb70a20)",
+            "Id": "2342ece5-cbd4-480e-af7e-4a79ecb70a20",
+            "DateCreated": "2019-05-15T19:32:07.087+04:00",
+            "DateModified": "2019-05-15T19:32:07.087+04:00",
+            "Deleted": false,
+            "rating": 1,
+            "show": "Dexter"
+        },
+        {
+            "@odata.type": "#Intelex.Eee_graphqlObject",
+            "@odata.id": "http://torwdiaziz01/devlogin/iadevform/api/v2/object/Eee_graphqlObject(9834e52a-0a2a-44f8-a65d-5e24c6fa0791)",
+            "@odata.editLink": "http://torwdiaziz01/devlogin/iadevform/api/v2/object/Eee_graphqlObject(9834e52a-0a2a-44f8-a65d-5e24c6fa0791)",
+            "Id": "9834e52a-0a2a-44f8-a65d-5e24c6fa0791",
+            "DateCreated": "2019-05-15T19:30:01.6+04:00",
+            "DateModified": "2019-05-15T19:30:01.6+04:00",
+            "Deleted": false,
+            "rating": 9,
+            "show": "GOT"
+        }
+    ]
+}

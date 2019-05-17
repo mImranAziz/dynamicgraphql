@@ -1,0 +1,47 @@
+{
+    "schemaName": "Eee_graphqlObject",
+    "@odata.context": "http://torwdiaziz01/devlogin/iadevform/api/v2/object/Eee_graphqlObject",
+    "commonFields": [
+        {
+            "name": "@odata.type",
+            "type": "String"
+        },
+        {
+            "name": "@odata.id",
+            "type": "String"
+        },
+        {
+            "name": "@odata.editLink",
+            "type": "String"
+        },
+        {
+            "name": "Id",
+            "type": "String",
+            "required": true
+        },
+        {
+            "name": "DateCreated",
+            "type": "String"
+        },
+        {
+            "name": "DateModified",
+            "type": "String"
+        },
+        {
+            "name": "Deleted",
+            "type": "Boolean"
+        }
+    ],
+    "customFields": [
+        {
+            "name": "rating",
+            "type": "Int",
+            "required": true
+        },
+        {
+            "name": "show",
+            "type": "String",
+            "required": false
+        }
+    ]
+}

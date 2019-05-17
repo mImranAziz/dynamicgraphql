@@ -1,1 +1,0 @@
-robot -P library %*

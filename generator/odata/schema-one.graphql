@@ -1,0 +1,11 @@
+type Eee_graphlObject {
+    odatatype: String
+    odataid: String
+    odataeditLink: String
+    Id: String
+    DateCreated:String 
+    DateModified: String
+    Deleted: Boolean
+    rating: Int
+    show: String
+}

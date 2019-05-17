@@ -1,9 +1,0 @@
-type ObjectDef {
-  id: ID!
-  show: String!
-  rating: Int!
-}
-
-type Query {
-  Object(name: String!): [ObjectDef!]!
-}

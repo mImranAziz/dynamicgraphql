@@ -1,0 +1,607 @@
+﻿{
+  "$id": "1",
+  "Id": "d288bbd4-e608-4010-a47b-4b347e215f19",
+  "Name": "customObject",
+  "Description": "",
+  "Version": "1.0.0.0",
+  "VersionId": "5fe42c86-38b4-4b0b-b3ba-4473427b9456",
+  "Source": {
+    "$id": "2",
+    "Owner": "LICENSE_FILE",
+    "OwnerId": "496cd72f-ce23-4c77-9252-edc5d16be4b0",
+    "BuildDate": "2019-05-17T17:46:43.2868232Z",
+    "ExportDate": "2019-05-17T17:46:43.3421028Z",
+    "PlatformVersion": "1.0.0.0"
+  },
+  "Requirements": [
+    {
+      "$id": "3",
+      "$type": "Intelex.Business.PackageManagement.Export.Requirements.ApplicationTargetRequirement, Intelex.Business.PackageManagement",
+      "Caption": "3E Gateway",
+      "Name": "Eee",
+      "Version": "1.0.0"
+    },
+    {
+      "$id": "4",
+      "$type": "Intelex.Business.PackageManagement.Export.Requirements.PlatformVersionTargetRequirement, Intelex.Business.PackageManagement",
+      "PlatformVersion": "1.0.0.0"
+    }
+  ],
+  "GraphData": {
+    "$id": "5",
+    "Items": [
+      {
+        "$id": "6",
+        "$type": "Intelex.Business.PackageManagement.Export.DataItems.MetPropertyPackageItemData, Intelex.Business.PackageManagement",
+        "CalculationDependencies": null,
+        "RequiresUomSystemProperties": false,
+        "RecordId": "8decb296-4ffe-4f42-8142-f4320b45d0ef",
+        "ObjectName": "MetSimplePropertyEntity",
+        "FieldData": {
+          "$id": "7",
+          "EditPermission": null,
+          "ViewPermission": null,
+          "DefaultUnitOfMeasure": null,
+          "ValidationRules": null,
+          "Id": "8decb296-4ffe-4f42-8142-f4320b45d0ef",
+          "MaxValue": null,
+          "IsLocalizable": false,
+          "DetailEditMask": null,
+          "InventoryEditMask": null,
+          "MinLength": null,
+          "DetailDisplayFormat": null,
+          "MinValue": null,
+          "Scale": null,
+          "FieldName": "show",
+          "MaxLength": null,
+          "TimeZoneCapture": false,
+          "InventoryDisplayFormat": null,
+          "Precision": null,
+          "Calculation": null,
+          "Span": false,
+          "InventoryDisplayAs": null,
+          "DetailEditAs": null,
+          "IsRequired": false,
+          "Category": null,
+          "IsReadOnly": false,
+          "Tooltip": null,
+          "Name": "show",
+          "DefaultValue": null,
+          "InventoryEmptyText": null,
+          "Caption": "show",
+          "Description": null,
+          "SpellCheck": false,
+          "IsAvailableForReporting": true,
+          "IsStatic": false,
+          "DetailEmptyText": null,
+          "UseTypeViewSettings": true,
+          "InventoryEditAs": null,
+          "DetailDisplayAs": null,
+          "IsProtected": false,
+          "IsSystem": false,
+          "IsPrimaryKey": false,
+          "Hint": null
+        },
+        "LocalizationData": null,
+        "Id": "86c3969d-e28d-49ce-815f-46b0b25a8ac3",
+        "Caption": "show",
+        "Type": "Field",
+        "Version": null,
+        "IfExists": 0,
+        "IfNotExists": 0,
+        "IsHidden": false
+      },
+      {
+        "$id": "8",
+        "$type": "Intelex.Business.PackageManagement.Export.DataItems.MetObjectPackageItemData, Intelex.Business.PackageManagement",
+        "PublishWorkflowId": null,
+        "RecordId": "f2b7ca0d-9201-4936-a3b1-3f29fc233656",
+        "ObjectName": "MetObjectEntity",
+        "FieldData": {
+          "$id": "9",
+          "Links": null,
+          "OrderProperty": null,
+          "ActionHandlers": null,
+          "SuperType": null,
+          "Workflows": null,
+          "DisplayProperty": null,
+          "Reporting object": null,
+          "DescriptionProperty": null,
+          "ValidationRules": null,
+          "CustomInventories": null,
+          "Notification Templates": null,
+          "Group": null,
+          "Filters": null,
+          "Id": "f2b7ca0d-9201-4936-a3b1-3f29fc233656",
+          "IsLocalizable": false,
+          "LocationFilter": null,
+          "IsMapEnabled": false,
+          "IsAuditEnabled": false,
+          "IsCreationFromMyTaskEnabled": false,
+          "ShortName": "graphql",
+          "MergeType": null,
+          "TableName": "cusEee_graphql",
+          "MobileTabOrder": null,
+          "ConcurrencyType": null,
+          "IsMailMergeEnabled": false,
+          "UseSoftDelete": true,
+          "IsSecurityEnabled": false,
+          "IsDataImportEnabled": false,
+          "IsAbstract": false,
+          "IsMessageEnabled": false,
+          "CheckChanges": false,
+          "TimeoutType": null,
+          "IsLocationBound": false,
+          "IsDocumentEnabled": false,
+          "IsAttachmentEnabled": false,
+          "Timeout": null,
+          "HasWorkflow": false,
+          "MobileFilter": null,
+          "Description": null,
+          "UseSystemViewSettings": true,
+          "IsSystem": false,
+          "InventoryDisplayAs": null,
+          "DetailEmptyText": null,
+          "InventoryEmptyText": null,
+          "Icon": null,
+          "IsStatic": false,
+          "DefaultValue": null,
+          "InventoryEditAs": null,
+          "Caption": "graphql",
+          "DetailEditAs": null,
+          "Name": "Eee_graphqlObject",
+          "NetType": null,
+          "DetailDisplayAs": null
+        },
+        "LocalizationData": null,
+        "Id": "9622b6b3-5685-433c-93bc-e851ae8db59e",
+        "Caption": "graphql",
+        "Type": "Object",
+        "Version": null,
+        "IfExists": 0,
+        "IfNotExists": 0,
+        "IsHidden": false
+      },
+      {
+        "$id": "10",
+        "$type": "Intelex.Business.PackageManagement.Export.DataItems.BusinessObjectPackageItemData, Intelex.Business.PackageManagement",
+        "RecordId": "e7e7e246-fadc-478c-a63f-39709c59cf66",
+        "ObjectName": "MetSimpleTypeEntity",
+        "FieldData": {
+          "$id": "11",
+          "Id": "e7e7e246-fadc-478c-a63f-39709c59cf66",
+          "MaxLength": null,
+          "DetailDisplayFormat": null,
+          "DetailEditMask": null,
+          "DetailFalseCaption": null,
+          "Precision": null,
+          "MinLength": 0,
+          "InventoryDisplayFormat": null,
+          "InventoryEditMask": null,
+          "Scale": null,
+          "InventoryTrueCaption": null,
+          "MinValue": null,
+          "MaxValue": null,
+          "DetailTrueCaption": null,
+          "TypeConverter": null,
+          "InventoryFalseCaption": null,
+          "DbType": 12,
+          "Description": "nvarchar type",
+          "UseSystemViewSettings": true,
+          "IsSystem": true,
+          "InventoryDisplayAs": null,
+          "DetailEmptyText": null,
+          "InventoryEmptyText": null,
+          "Icon": null,
+          "IsStatic": true,
+          "DefaultValue": null,
+          "InventoryEditAs": null,
+          "Caption": "Text",
+          "DetailEditAs": null,
+          "Name": "nvarchar",
+          "NetType": "System.String",
+          "DetailDisplayAs": null
+        },
+        "LocalizationData": null,
+        "Id": "7f4f3f6c-b213-418f-80c3-9533fa04356d",
+        "Caption": "Text",
+        "Type": "Simple Type",
+        "Version": null,
+        "IfExists": 1,
+        "IfNotExists": 2,
+        "IsHidden": true
+      },
+      {
+        "$id": "12",
+        "$type": "Intelex.Business.PackageManagement.Export.DataItems.SysConfigurableViewPackageItemData, Intelex.Business.PackageManagement",
+        "ResourceItems": null,
+        "RecordId": "cddf57f4-6e84-458f-a4c7-e8b9aad6555c",
+        "ObjectName": "SysConfigurableViewEntity",
+        "FieldData": {
+          "$id": "13",
+          "Walkthroughs": null,
+          "Id": "cddf57f4-6e84-458f-a4c7-e8b9aad6555c",
+          "ConfigurableViewActions": null,
+          "IsParsedForMobile": false,
+          "Path": "Eee_graphqlObjectDetailView",
+          "Name": "Eee_graphqlObjectDetailView",
+          "Type": 0,
+          "Content": "<ix:DetailPage>\r\n<ix:DetailSection Title='Fields'>\r\n<ix:FieldArea><ix:Field For=\"show\" /><ix:Field For=\"rating\" /></ix:FieldArea>\r\n<ix:WorkflowFields/>\r\n</ix:DetailSection>\r\n<ix:WorkflowComments/>\r\n<ix:WorkflowTracking/>\r\n<ix:ESignatureHistorySection/>\r\n</ix:DetailPage>",
+          "Caption": null,
+          "MasterPage": null,
+          "IsPublic": false
+        },
+        "LocalizationData": null,
+        "Id": "caa5b3db-97b5-4582-b9c6-4d7d7b1b0936",
+        "Caption": "Eee_graphqlObjectDetailView",
+        "Type": "Configurable View",
+        "Version": null,
+        "IfExists": 0,
+        "IfNotExists": 0,
+        "IsHidden": false
+      },
+      {
+        "$id": "14",
+        "$type": "Intelex.Business.PackageManagement.Export.DataItems.BusinessObjectPackageItemData, Intelex.Business.PackageManagement",
+        "RecordId": "8f3e3f57-25c7-4b46-b121-573a71eaf840",
+        "ObjectName": "SysModuleEntity",
+        "FieldData": {
+          "$id": "15",
+          "Id": "8f3e3f57-25c7-4b46-b121-573a71eaf840",
+          "LegacyModuleId": null,
+          "VersionOrder": 1000000,
+          "UrlCaption": "Eee",
+          "UrlIcon": null,
+          "IsAvailableOffline": false,
+          "Disabled": false,
+          "Description": null,
+          "MobileIcon": null,
+          "Caption": "3E Gateway",
+          "VersionNumber": "1.0.0",
+          "IsAvailableForMobile": false,
+          "MobileCaption": null,
+          "Index": 9999
+        },
+        "LocalizationData": null,
+        "Id": "90db21e1-0c71-4a04-850d-89eb341cdc41",
+        "Caption": "3E Gateway",
+        "Type": "Application",
+        "Version": null,
+        "IfExists": 1,
+        "IfNotExists": 2,
+        "IsHidden": false
+      },
+      {
+        "$id": "16",
+        "$type": "Intelex.Business.PackageManagement.Export.DataItems.SysConfigurableViewPackageItemData, Intelex.Business.PackageManagement",
+        "ResourceItems": null,
+        "RecordId": "551f02af-b69b-429e-a5f1-48c8651d9d44",
+        "ObjectName": "SysConfigurableViewEntity",
+        "FieldData": {
+          "$id": "17",
+          "Walkthroughs": null,
+          "Id": "551f02af-b69b-429e-a5f1-48c8651d9d44",
+          "ConfigurableViewActions": null,
+          "IsParsedForMobile": false,
+          "Path": "Eee_graphqlObjectInventoryView",
+          "Name": "Eee_graphqlObjectInventoryView",
+          "Type": 1,
+          "Content": "<ix:InventoryPage>\r\n<ix:Inventory ID='Eee_graphqlObjectInventory'>\r\n<ix:InventoryView ID='Eee_graphqlObjectInventoryView'>\r\n<Columns><ix:Column For=\"show\" LinkTo=\"default\" /><ix:Column For=\"rating\" /></Columns>\r\n</ix:InventoryView>\r\n</ix:Inventory>\r\n</ix:InventoryPage>",
+          "Caption": null,
+          "MasterPage": null,
+          "IsPublic": false
+        },
+        "LocalizationData": null,
+        "Id": "41adf97d-6122-435c-b5bb-a1a79e3eb3f9",
+        "Caption": "Eee_graphqlObjectInventoryView",
+        "Type": "Configurable View",
+        "Version": null,
+        "IfExists": 0,
+        "IfNotExists": 0,
+        "IsHidden": false
+      },
+      {
+        "$id": "18",
+        "$type": "Intelex.Business.PackageManagement.Export.DataItems.MetPropertyPackageItemData, Intelex.Business.PackageManagement",
+        "CalculationDependencies": null,
+        "RequiresUomSystemProperties": false,
+        "RecordId": "5387bb40-58b8-4438-9767-822f7a10ad7f",
+        "ObjectName": "MetSimplePropertyEntity",
+        "FieldData": {
+          "$id": "19",
+          "ViewPermission": null,
+          "EditPermission": null,
+          "ValidationRules": null,
+          "DefaultUnitOfMeasure": null,
+          "Id": "5387bb40-58b8-4438-9767-822f7a10ad7f",
+          "MaxValue": null,
+          "IsLocalizable": false,
+          "DetailEditMask": null,
+          "InventoryEditMask": null,
+          "MinLength": null,
+          "DetailDisplayFormat": null,
+          "MinValue": null,
+          "Scale": null,
+          "FieldName": "rating",
+          "MaxLength": null,
+          "TimeZoneCapture": false,
+          "InventoryDisplayFormat": null,
+          "Precision": null,
+          "Calculation": null,
+          "Span": false,
+          "InventoryDisplayAs": null,
+          "DetailEditAs": null,
+          "IsRequired": false,
+          "Category": null,
+          "IsReadOnly": false,
+          "Tooltip": null,
+          "Name": "rating",
+          "DefaultValue": null,
+          "InventoryEmptyText": null,
+          "Caption": "rating",
+          "Description": null,
+          "SpellCheck": true,
+          "IsAvailableForReporting": true,
+          "IsStatic": false,
+          "DetailEmptyText": null,
+          "UseTypeViewSettings": true,
+          "InventoryEditAs": null,
+          "DetailDisplayAs": null,
+          "IsProtected": false,
+          "IsSystem": false,
+          "IsPrimaryKey": false,
+          "Hint": null
+        },
+        "LocalizationData": null,
+        "Id": "439f0381-d377-4bf5-a1d2-c7ff7e90e36f",
+        "Caption": "rating",
+        "Type": "Field",
+        "Version": null,
+        "IfExists": 0,
+        "IfNotExists": 0,
+        "IsHidden": false
+      },
+      {
+        "$id": "20",
+        "$type": "Intelex.Business.PackageManagement.Export.DataItems.BusinessObjectPackageItemData, Intelex.Business.PackageManagement",
+        "RecordId": "337ddb42-5425-408b-907f-9ff244358684",
+        "ObjectName": "MetSimpleTypeEntity",
+        "FieldData": {
+          "$id": "21",
+          "Id": "337ddb42-5425-408b-907f-9ff244358684",
+          "MaxLength": null,
+          "DetailDisplayFormat": null,
+          "DetailEditMask": null,
+          "DetailFalseCaption": null,
+          "Precision": null,
+          "MinLength": 0,
+          "InventoryDisplayFormat": null,
+          "InventoryEditMask": null,
+          "Scale": null,
+          "InventoryTrueCaption": null,
+          "MinValue": null,
+          "MaxValue": null,
+          "DetailTrueCaption": null,
+          "TypeConverter": null,
+          "InventoryFalseCaption": null,
+          "DbType": 0,
+          "Description": "bigint type",
+          "UseSystemViewSettings": true,
+          "IsSystem": true,
+          "InventoryDisplayAs": null,
+          "DetailEmptyText": null,
+          "InventoryEmptyText": null,
+          "Icon": null,
+          "IsStatic": true,
+          "DefaultValue": null,
+          "InventoryEditAs": null,
+          "Caption": "Number",
+          "DetailEditAs": null,
+          "Name": "bigint",
+          "NetType": "System.Int64",
+          "DetailDisplayAs": null
+        },
+        "LocalizationData": null,
+        "Id": "7c9a2625-542a-45b8-bab9-f16721efaa66",
+        "Caption": "Number",
+        "Type": "Simple Type",
+        "Version": null,
+        "IfExists": 1,
+        "IfNotExists": 2,
+        "IsHidden": true
+      }
+    ],
+    "Relations": [
+      {
+        "$id": "22",
+        "Type": 2,
+        "Start": {
+          "$ref": "6"
+        },
+        "End": {
+          "$ref": "8"
+        },
+        "IsMandatory": true,
+        "Source": "Object"
+      },
+      {
+        "$id": "23",
+        "Type": 2,
+        "Start": {
+          "$ref": "6"
+        },
+        "End": {
+          "$ref": "10"
+        },
+        "IsMandatory": true,
+        "Source": "Type"
+      },
+      {
+        "$id": "24",
+        "Type": 2,
+        "Start": {
+          "$ref": "8"
+        },
+        "End": {
+          "$ref": "12"
+        },
+        "IsMandatory": false,
+        "Source": "DefaultDetailView"
+      },
+      {
+        "$id": "25",
+        "Type": 1,
+        "Start": {
+          "$ref": "8"
+        },
+        "End": {
+          "$ref": "12"
+        },
+        "IsMandatory": false,
+        "Source": "Views"
+      },
+      {
+        "$id": "26",
+        "Type": 1,
+        "Start": {
+          "$ref": "8"
+        },
+        "End": {
+          "$ref": "6"
+        },
+        "IsMandatory": false,
+        "Source": "ObjectProperties"
+      },
+      {
+        "$id": "27",
+        "Type": 2,
+        "Start": {
+          "$ref": "8"
+        },
+        "End": {
+          "$ref": "16"
+        },
+        "IsMandatory": false,
+        "Source": "DefaultInventoryView"
+      },
+      {
+        "$id": "28",
+        "Type": 1,
+        "Start": {
+          "$ref": "8"
+        },
+        "End": {
+          "$ref": "16"
+        },
+        "IsMandatory": false,
+        "Source": "Views"
+      },
+      {
+        "$id": "29",
+        "Type": 2,
+        "Start": {
+          "$ref": "8"
+        },
+        "End": {
+          "$ref": "14"
+        },
+        "IsMandatory": true,
+        "Source": "Module"
+      },
+      {
+        "$id": "30",
+        "Type": 1,
+        "Start": {
+          "$ref": "8"
+        },
+        "End": {
+          "$ref": "18"
+        },
+        "IsMandatory": false,
+        "Source": "ObjectProperties"
+      },
+      {
+        "$id": "31",
+        "Type": 2,
+        "Start": {
+          "$ref": "12"
+        },
+        "End": {
+          "$ref": "8"
+        },
+        "IsMandatory": true,
+        "Source": "Object"
+      },
+      {
+        "$id": "32",
+        "Type": 2,
+        "Start": {
+          "$ref": "16"
+        },
+        "End": {
+          "$ref": "8"
+        },
+        "IsMandatory": true,
+        "Source": "Object"
+      },
+      {
+        "$id": "33",
+        "Type": 2,
+        "Start": {
+          "$ref": "18"
+        },
+        "End": {
+          "$ref": "8"
+        },
+        "IsMandatory": true,
+        "Source": "Object"
+      },
+      {
+        "$id": "34",
+        "Type": 2,
+        "Start": {
+          "$ref": "18"
+        },
+        "End": {
+          "$ref": "20"
+        },
+        "IsMandatory": true,
+        "Source": "Type"
+      }
+    ],
+    "RootItems": [
+      {
+        "$ref": "8"
+      }
+    ],
+    "IncludedItems": [
+      {
+        "$ref": "6"
+      },
+      {
+        "$ref": "8"
+      },
+      {
+        "$ref": "12"
+      },
+      {
+        "$ref": "16"
+      },
+      {
+        "$ref": "18"
+      }
+    ],
+    "Dependencies": [
+      {
+        "$ref": "10"
+      },
+      {
+        "$ref": "14"
+      },
+      {
+        "$ref": "20"
+      }
+    ],
+    "ExcludedItems": []
+  }
+}

@@ -1,9 +1,46 @@
-type ObjectDef {
-  id: ID!
+interface Entity {
+  Id: ID
+  DateCreated: String!
+  DateModified: String!
+  Deleted: Boolean!
+}
+
+type CustomObject implements Entity {
+  Id: ID
+  DateCreated: String!
+  DateModified: String!
+  Deleted: Boolean!
+  # Custom fields 
   show: String!
   rating: Int!
 }
 
+type Task {
+  Id: ID
+  RespEmployeeName: String!
+  DueDateType: String 
+  LocationId: ID! 
+  LocationName: String!
+  NetObjectId: ID!
+  NetObjectType: String!
+  NetTaskId: ID!
+  NextDate: String
+  RecordDescription: String
+  Stage: String!
+  TaskType: String!
+  LegacyRecordId: ID
+  LegacyRecordIdName: String
+  LegacyRespEmployeeId: ID
+  LegacyTaskId: ID
+  WebLink: String!
+}
+
 type Query {
-  Object(name: String!): [ObjectDef!]!
+  Object(name: String!): [CustomObject!]!,
+  Task(name: String!): [Task!]!
+}
+
+type Mutation {
+  createCustomObject(show: String!, rating: Int!): CustomObject
+  updateCustomObject(Id: ID!, show: String!, rating: Int!): CustomObject
 }

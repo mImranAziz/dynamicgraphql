@@ -73,3 +73,6 @@ mutation {
 # Testing Frameworks
 File index.test.js contains integration testing example in JEST. 
 File test.robot contains integration testing example in Robot Framework. 
+
+# Performance
+For comparison of latencies direct call to [OData](/performance/out-odata-10rps.html) OData vs through [GraphQL](/performance/out-graph-10rps.html)

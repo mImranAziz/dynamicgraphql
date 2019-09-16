@@ -12,9 +12,9 @@
     "express-graphql": "^0.8.0",
     "graphiql": "^0.13.0",
     "graphql": "^14.2.1",
-    "graphql-tools": "^4.0.4",
-    "graphql-yoga": "^1.17.4",
-    "node-fetch": "^2.3.0",
+    "graphql-tools": "^4.0.5",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.0",
     "request": "^2.88.0",
     "yarn": "^1.15.2"
   },

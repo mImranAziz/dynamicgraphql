@@ -16,7 +16,7 @@
     "graphql-yoga": "^1.18.3",
     "node-fetch": "^2.6.0",
     "request": "^2.88.0",
-    "yarn": "^1.15.2"
+    "yarn": "^1.22.0"
   },
   "scripts": {
     "test": "jest",
